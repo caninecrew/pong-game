@@ -31,6 +31,8 @@ ball.shape("square")
 ball.color("white")
 ball.penup()
 ball.goto(0, 0)
+ball.dx = 0.2  # Ball movement in x direction
+ball.dy = -0.2  # Ball movement in y direction
 
 # Functions
 def paddle_a_up():
