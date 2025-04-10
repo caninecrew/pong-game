@@ -46,7 +46,7 @@ def paddle_a_down():
 # Keyboard bindings
 wn.listen()
 wn.onkeypress(paddle_a_up, "w")
-wn.onkeypress(paddle_a_up, "s")
+wn.onkeypress(paddle_a_down, "s")
 
 
 # Main game loop
